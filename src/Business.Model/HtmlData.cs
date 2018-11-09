@@ -8,6 +8,5 @@
         }
 
         public string html { get; set; }
-        public string css { get; set; }
     }
 }
