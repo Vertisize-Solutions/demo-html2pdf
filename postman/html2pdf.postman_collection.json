@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "830295ef-d64b-4762-9f8e-8b16c967ce57",
+		"name": "html2pdf",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "iText pdf geration",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"html\": \"\",\n\t\"css\": \"\"\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44368/api/pdf",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44368",
+					"path": [
+						"api",
+						"pdf"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
