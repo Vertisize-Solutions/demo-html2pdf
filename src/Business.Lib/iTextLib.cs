@@ -1,5 +1,8 @@
 ﻿using Core.Lib;
+using iText.Html2pdf;
+using iText.Kernel.Pdf;
 using System;
+using System.IO;
 
 namespace Business.Lib
 {
@@ -13,11 +16,20 @@ namespace Business.Lib
             logger = new Logger();
         }
 
-        public void html2pdf(string html, string css)
+        public void iText7Html2Pdf(string html)
         {
             try
             {
+                // Determine whether the directory exists.
+                var directory = $"{AppDomain.CurrentDomain.BaseDirectory}pdfs";
+                if (!Directory.Exists(directory))
+                {
+                    Directory.CreateDirectory(directory);
+                }
+                var filePath = $"{directory}\\sample.pdf";
+                var writer = new PdfWriter(filePath);
 
+                HtmlConverter.ConvertToPdf(html, writer);
             }
             catch (Exception ex)
             {

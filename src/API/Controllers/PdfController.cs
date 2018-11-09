@@ -9,10 +9,12 @@ namespace API.Controllers
     public class PdfController : ControllerBase
     {
         [HttpPost]
-        public void GeneratePdf([FromBody] HtmlData data)
+        [Route("itext7")]
+        public IActionResult GeneratePdf([FromBody] HtmlData data)
         {
             var lib = new iTextLib();
-            lib.html2pdf(data.html, data.css);
+            lib.iText7Html2Pdf(data.html);
+            return Ok("");
         }
     }
 }

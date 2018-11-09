@@ -19,10 +19,10 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"html\": \"\",\n\t\"css\": \"\"\n}"
+					"raw": "{\r\n\r\n\"html\" : \"<html><head><style>h3 { color: red; }</style></head><body><h3>Hello World!</h3><p>This is a sample</p></body></html>\"\r\n}"
 				},
 				"url": {
-					"raw": "https://localhost:44368/api/pdf",
+					"raw": "https://localhost:44368/api/pdf/itext7",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -30,7 +30,8 @@
 					"port": "44368",
 					"path": [
 						"api",
-						"pdf"
+						"pdf",
+						"itext7"
 					]
 				}
 			},
