@@ -1,4 +1,4 @@
-﻿namespace Model
+﻿namespace Business.Model
 {
     public class HtmlData
     {

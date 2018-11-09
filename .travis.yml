@@ -1,6 +1,0 @@
-language: csharp
-solution: html2pdf.sln
-mono: none
-dotnet: 2.1.300
-script:
- - dotnet restore

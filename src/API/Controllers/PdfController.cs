@@ -1,19 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Business.Lib;
+using Business.Model;
 using Microsoft.AspNetCore.Mvc;
-using Model;
 
 namespace API.Controllers
 {
-    [Route("api/pdf")]
-    public class PdfController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class PdfController : ControllerBase
     {
         [HttpPost]
-        public void GeneratePdf([FromBody]HtmlData value)
+        public void GeneratePdf([FromBody] HtmlData data)
         {
-
+            var lib = new iTextLib();
+            lib.html2pdf(data.html, data.css);
         }
     }
 }
