@@ -13,8 +13,8 @@ namespace API.Controllers
         public IActionResult GeneratePdf([FromBody] HtmlData data)
         {
             var lib = new iTextLib();
-            lib.iText7Html2Pdf(data.html);
-            return Ok("");
+            var result = lib.iText7Html2Pdf(data.html);
+            return File(result, "application/pdf", "using-iText7.pdf");
         }
     }
 }

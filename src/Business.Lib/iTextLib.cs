@@ -16,7 +16,7 @@ namespace Business.Lib
             logger = new Logger();
         }
 
-        public void iText7Html2Pdf(string html)
+        public byte[] iText7Html2Pdf(string html)
         {
             try
             {
@@ -26,14 +26,22 @@ namespace Business.Lib
                 {
                     Directory.CreateDirectory(directory);
                 }
-                var filePath = $"{directory}\\sample.pdf";
+                var filePath = $"{directory}\\sample-{DateTime.UtcNow}.pdf";
                 var writer = new PdfWriter(filePath);
 
                 HtmlConverter.ConvertToPdf(html, writer);
+
+                using (var stream = File.OpenRead(filePath))
+                {
+                    MemoryStream result = new MemoryStream();
+                    stream.CopyTo(result);
+                    return result.ToArray();
+                }
             }
             catch (Exception ex)
             {
                 logger.Error(ex);
+                return null;
             }
         }
     }
