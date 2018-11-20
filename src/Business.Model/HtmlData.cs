@@ -8,5 +8,6 @@
         }
 
         public string html { get; set; }
+        public string APIKey { get; set; }
     }
 }
