@@ -4889,6 +4889,16 @@
           "bin/placeholder/Business.Model.dll": {}
         }
       },
+      "Constant.Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Constant.Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Constant.Lib.dll": {}
+        }
+      },
       "Core.Lib/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -13008,6 +13018,11 @@
       "path": "../Business.Model/Business.Model.csproj",
       "msbuildProject": "../Business.Model/Business.Model.csproj"
     },
+    "Constant.Lib/1.0.0": {
+      "type": "project",
+      "path": "../Constant.Lib/Constant.Lib.csproj",
+      "msbuildProject": "../Constant.Lib/Constant.Lib.csproj"
+    },
     "Core.Lib/1.0.0": {
       "type": "project",
       "path": "../Core.Lib/Core.Lib.csproj",
@@ -13018,6 +13033,7 @@
     ".NETCoreApp,Version=v2.1": [
       "Business.Lib >= 1.0.0",
       "Business.Model >= 1.0.0",
+      "Constant.Lib >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -13059,6 +13075,9 @@
             },
             "E:\\GitHub - Kolappan\\html2pdf\\src\\Business.Model\\Business.Model.csproj": {
               "projectPath": "E:\\GitHub - Kolappan\\html2pdf\\src\\Business.Model\\Business.Model.csproj"
+            },
+            "E:\\GitHub - Kolappan\\html2pdf\\src\\Constant.Lib\\Constant.Lib.csproj": {
+              "projectPath": "E:\\GitHub - Kolappan\\html2pdf\\src\\Constant.Lib\\Constant.Lib.csproj"
             }
           }
         }

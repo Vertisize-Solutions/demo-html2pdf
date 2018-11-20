@@ -19,7 +19,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\r\n\"html\" : \"<html><head><style>h3 { color: red; }</style></head><body><h3>Hello World!</h3><p>This is a sample</p></body></html>\"\r\n}"
+					"raw": "{\r\n\r\n\"html\" : \"<html><head><style>h3 { color: red; }</style></head><body><h3>Hello World!</h3><p>This is a sample</p></body></html>\",\r\n\"APIKey\": \"This-is-an-example-key\"\r\n}"
 				},
 				"url": {
 					"raw": "{{url}}/api/pdf/itext7",
@@ -60,7 +60,7 @@
 	],
 	"variable": [
 		{
-			"id": "4f0f6828-f6bf-4b09-9157-3b56cd2a14c8",
+			"id": "65057849-28f3-4c89-b1df-043a95d6ae87",
 			"key": "url",
 			"value": "https://localhost:44368",
 			"type": "string"
