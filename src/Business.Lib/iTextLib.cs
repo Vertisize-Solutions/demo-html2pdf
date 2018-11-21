@@ -26,7 +26,7 @@ namespace Business.Lib
                 {
                     Directory.CreateDirectory(directory);
                 }
-                var filePath = $"{directory}\\sample-{DateTime.UtcNow}.pdf";
+                var filePath = $"{directory}\\sample-{DateTime.UtcNow.ToString("MM-dd-yyyy hh:mm tt")}.pdf";
                 var writer = new PdfWriter(filePath);
 
                 HtmlConverter.ConvertToPdf(html, writer);
