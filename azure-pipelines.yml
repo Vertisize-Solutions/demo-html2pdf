@@ -12,6 +12,7 @@ trigger:
   paths:
     include:
     - src/*
+    - azure-pipelines.yml
     exclude:
     - postman/*
     - README.md
@@ -38,7 +39,7 @@ steps:
     projects: '**/API.csproj'
 
 - task: DotNetCoreCLI@2
-  displayName: 'Build All Projects'
+  displayName: 'Build API Project'
   inputs:
     command: 'build' 
     projects: '**/API.csproj'
