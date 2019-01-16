@@ -35,10 +35,10 @@ steps:
   displayName: 'Restore Packages'
   inputs:
     command: 'restore' 
-    projects: '**/*.csproj'
+    projects: '**/API.csproj'
 
 - task: DotNetCoreCLI@2
   displayName: 'Build All Projects'
   inputs:
     command: 'build' 
-    projects: '**/*.csproj'
+    projects: '**/API.csproj'
