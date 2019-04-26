@@ -2,7 +2,7 @@
 This project is a .Net core project that converts HTML to PDF using various libraries.
 
 [![Build Status](https://dev.azure.com/vertisize-oss/html2pdf/_apis/build/status/Vertisize-Solutions.html2pdf?branchName=master)](https://dev.azure.com/vertisize-oss/html2pdf/_build/latest?definitionId=1?branchName=master)
-![GitHub](https://img.shields.io/github/license/Vertisize-Solutions/html2pdf.svg)
+[![GitHub](https://img.shields.io/github/license/Vertisize-Solutions/html2pdf.svg)](https://github.com/Vertisize-Solutions/html2pdf/blob/master/LICENSE)
 
 ### Usage
 
