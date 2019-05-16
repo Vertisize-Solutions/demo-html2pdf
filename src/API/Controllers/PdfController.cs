@@ -9,8 +9,13 @@ namespace API.Controllers
     [ApiController]
     public class PdfController : ControllerBase
     {
-        [HttpPost]
-        [Route("itext7")]
+        [HttpGet("")]
+        public IActionResult ShowList()
+        {
+            return new JsonResult(new UsedLibraries());
+        }
+
+        [HttpPost("itext7")]
         public IActionResult GeneratePdf([FromBody] HtmlData data)
         {
             if (data.APIKey != Key.APIKey)
