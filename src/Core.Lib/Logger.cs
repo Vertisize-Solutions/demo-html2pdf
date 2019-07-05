@@ -5,12 +5,10 @@ namespace Core.Lib
     public class Logger
     {
         private nk.logger.csv.Logger csvLogger;
-        private string dateFormat = "yyyy-MM-dd HH:mm:ss.fff";
-        private string fileName = "ErrorLog";
 
         public Logger()
         {
-            csvLogger = new nk.logger.csv.Logger(dateFormat, fileName);
+            csvLogger = new nk.logger.csv.Logger();
         }
 
         public void Error(Exception ex)
