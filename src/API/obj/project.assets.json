@@ -2977,7 +2977,7 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
-      "nk.logger.csv/2.0.0": {
+      "nk.logger.csv/2.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/nk.logger.csv.dll": {}
@@ -5006,7 +5006,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "nk.logger.csv": "2.0.0"
+          "nk.logger.csv": "2.0.1"
         },
         "compile": {
           "bin/placeholder/Core.Lib.dll": {}
@@ -8508,15 +8508,15 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
-    "nk.logger.csv/2.0.0": {
-      "sha512": "6jjEVo1kyPOcr9/i9yvkENecZNaJA4CUL2Z45CqOpaJ4r2gOm5UlpXzC6CcyeI2cSKKwD/n+Tn0fH3Z6THL1cw==",
+    "nk.logger.csv/2.0.1": {
+      "sha512": "YoLggkzm6bvrxnTIDdDKjoFcsOeyxwAP3mRyEogcxbpnEouMPQm9zDpAMYjznawzW5oymyZisaGAii9veo//0g==",
       "type": "package",
-      "path": "nk.logger.csv/2.0.0",
+      "path": "nk.logger.csv/2.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/nk.logger.csv.dll",
-        "nk.logger.csv.2.0.0.nupkg.sha512",
+        "nk.logger.csv.2.0.1.nupkg.sha512",
         "nk.logger.csv.nuspec"
       ]
     },
