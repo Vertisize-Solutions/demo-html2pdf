@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="itext7" Version="7.1.11" />
-    <PackageReference Include="itext7.pdfhtml" Version="2.1.7" />
+    <PackageReference Include="itext7.pdfhtml" Version="3.0.0" />
   </ItemGroup>
 
   <ItemGroup>
