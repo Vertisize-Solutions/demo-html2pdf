@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/src"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: Microsoft.VisualStudio.Web.CodeGeneration.Design
+    versions:
+    - 5.0.2
+  - dependency-name: itext7
+    versions:
+    - 7.1.14
+  - dependency-name: itext7.pdfhtml
+    versions:
+    - 3.0.3
