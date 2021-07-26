@@ -4,7 +4,7 @@ This project is a .Net core project that converts HTML to PDF using various libr
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Vertisize-Solutions/html2pdf/CI?label=Build%3A%20GitHub%20Actions&logo=github&style=flat-square)](https://github.com/Vertisize-Solutions/html2pdf/actions?query=workflow%3ACI)
 
 ### Downloads
-![GitHub release](https://img.shields.io/github/release/Vertisize-Solutions/html2pdf.svg?style=flat-square&logo=github)
+[![GitHub release](https://img.shields.io/github/release/Vertisize-Solutions/html2pdf.svg?style=flat-square&logo=github)](#)
 
 ### Usage
 
