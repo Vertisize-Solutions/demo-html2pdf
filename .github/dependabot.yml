@@ -10,9 +10,3 @@ updates:
   - dependency-name: Microsoft.VisualStudio.Web.CodeGeneration.Design
     versions:
     - 5.0.2
-  - dependency-name: itext7
-    versions:
-    - 7.1.14
-  - dependency-name: itext7.pdfhtml
-    versions:
-    - 3.0.3
