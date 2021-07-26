@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "830295ef-d64b-4762-9f8e-8b16c967ce57",
+		"_postman_id": "1f114e2c-0cf9-49d3-83a4-dcc02a0fd85c",
 		"name": "html2pdf",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -40,7 +40,6 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "7b031c12-efd9-4d00-9022-edc01540c646",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -50,7 +49,6 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "4381fdfe-0956-4e09-b782-8feec3912778",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -60,7 +58,6 @@
 	],
 	"variable": [
 		{
-			"id": "65057849-28f3-4c89-b1df-043a95d6ae87",
 			"key": "url",
 			"value": "https://localhost:44368",
 			"type": "string"
