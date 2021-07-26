@@ -6,7 +6,3 @@ updates:
     interval: daily
     time: "23:30"
   open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: Microsoft.VisualStudio.Web.CodeGeneration.Design
-    versions:
-    - 5.0.2
