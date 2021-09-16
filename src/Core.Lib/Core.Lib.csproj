@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="nk.logger.csv" Version="3.0.0" />
+    <PackageReference Include="nk.logger.csv" Version="3.0.1" />
   </ItemGroup>
 
 </Project>
